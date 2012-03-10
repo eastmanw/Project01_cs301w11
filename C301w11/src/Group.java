@@ -2,6 +2,8 @@
 
 import java.util.Collection;
 
+import c301w11.Model.Picture;
+
 public class Group {
 
 		
