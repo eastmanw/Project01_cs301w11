@@ -3,10 +3,10 @@ package c301w11.Controller;
 
 import java.util.Collection;
 
-import c301w11.Model.Picture;
+import c301w11.Model.Photo;
 import c301w11.View.PictureActivity;
 
-public class HandlePicture {
+public class HandlePhoto {
 
 		
 		/**
@@ -33,7 +33,7 @@ public class HandlePicture {
 				 * @uml.property  name="picture"
 				 * @uml.associationEnd  multiplicity="(1 -1)" inverse="handlePicture:Picture"
 				 */
-				private Collection<Picture> picture;
+				private Collection<Photo> photo;
 
 
 
@@ -42,18 +42,18 @@ public class HandlePicture {
 				 * @return  Returns the picture.
 				 * @uml.property  name="picture"
 				 */
-				public Collection<Picture> getPicture() {
-					return picture;
+				public Collection<Photo> getPicture() {
+					return photo;
 				}
 
 
 				/**
 				 * Setter of the property <tt>picture</tt>
-				 * @param picture  The picture to set.
+				 * @param photo  The picture to set.
 				 * @uml.property  name="picture"
 				 */
-				public void setPicture(Collection<Picture> picture) {
-					this.picture = picture;
+				public void setPicture(Collection<Photo> photo) {
+					this.photo = photo;
 				}
 
 

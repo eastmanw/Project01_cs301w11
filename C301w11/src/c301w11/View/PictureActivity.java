@@ -5,7 +5,7 @@ import Activity;
 
 import java.util.Collection;
 
-import c301w11.Controller.HandlePicture;
+import c301w11.Controller.HandlePhoto;
 import android.widget.Button;
 
 public class PictureActivity extends Activity {
@@ -38,24 +38,24 @@ public class PictureActivity extends Activity {
 	 * @uml.property  name="handlePicture"
 	 * @uml.associationEnd  multiplicity="(1 -1)" aggregation="shared" inverse="pictureActivity:HandlePicture"
 	 */
-	private Collection<HandlePicture> handlePicture;
+	private Collection<HandlePhoto> handlePhoto;
 
 	/**
 	 * Getter of the property <tt>handlePicture</tt>
 	 * @return  Returns the handlePicture.
 	 * @uml.property  name="handlePicture"
 	 */
-	public Collection<HandlePicture> getHandlePicture() {
-		return handlePicture;
+	public Collection<HandlePhoto> getHandlePicture() {
+		return handlePhoto;
 	}
 
 	/**
 	 * Setter of the property <tt>handlePicture</tt>
-	 * @param handlePicture  The handlePicture to set.
+	 * @param handlePhoto  The handlePicture to set.
 	 * @uml.property  name="handlePicture"
 	 */
-	public void setHandlePicture(Collection<HandlePicture> handlePicture) {
-		this.handlePicture = handlePicture;
+	public void setHandlePicture(Collection<HandlePhoto> handlePhoto) {
+		this.handlePhoto = handlePhoto;
 	}
 
 	/**

@@ -3,7 +3,7 @@ package c301w11.Controller;
 
 import java.util.Collection;
 
-import c301w11.Model.Picture;
+import c301w11.Model.Photo;
 import c301w11.View.GroupActivity;
 
 public class Group {
@@ -62,7 +62,7 @@ public class Group {
 				 * @uml.property  name="picture"
 				 * @uml.associationEnd  multiplicity="(1 -1)" inverse="group:Picture"
 				 */
-				private Collection<Picture> picture;
+				private Collection<Photo> photo;
 
 
 
@@ -71,18 +71,18 @@ public class Group {
 				 * @return  Returns the picture.
 				 * @uml.property  name="picture"
 				 */
-				public Collection<Picture> getPicture() {
-					return picture;
+				public Collection<Photo> getPicture() {
+					return photo;
 				}
 
 
 				/**
 				 * Setter of the property <tt>picture</tt>
-				 * @param picture  The picture to set.
+				 * @param photo  The picture to set.
 				 * @uml.property  name="picture"
 				 */
-				public void setPicture(Collection<Picture> picture) {
-					this.picture = picture;
+				public void setPicture(Collection<Photo> photo) {
+					this.photo = photo;
 				}
 
 
@@ -91,7 +91,7 @@ public class Group {
 				 * @uml.property  name="handlePicture"
 				 * @uml.associationEnd  multiplicity="(1 -1)" inverse="group:HandlePicture"
 				 */
-				private Collection<HandlePicture> handlePicture;
+				private Collection<HandlePhoto> handlePhoto;
 
 
 
@@ -100,19 +100,19 @@ public class Group {
 				 * @return  Returns the handlePicture.
 				 * @uml.property  name="handlePicture"
 				 */
-				public Collection<HandlePicture> getHandlePicture() {
-					return handlePicture;
+				public Collection<HandlePhoto> getHandlePicture() {
+					return handlePhoto;
 				}
 
 
 				/**
 				 * Setter of the property <tt>handlePicture</tt>
-				 * @param handlePicture  The handlePicture to set.
+				 * @param handlePhoto  The handlePicture to set.
 				 * @uml.property  name="handlePicture"
 				 */
 				public void setHandlePicture(
-						Collection<HandlePicture> handlePicture) {
-					this.handlePicture = handlePicture;
+						Collection<HandlePhoto> handlePhoto) {
+					this.handlePhoto = handlePhoto;
 				}
 
 }
