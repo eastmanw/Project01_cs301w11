@@ -2,7 +2,7 @@
 
 import java.util.Collection;
 
-public class CameraActivity extends GeneralActivity {
+public class CameraActivity extends ListPictureActivity {
 
 	/** 
 	 * @uml.property name="camera"
@@ -32,14 +32,14 @@ public class CameraActivity extends GeneralActivity {
 	 * @uml.property name="general"
 	 * @uml.associationEnd multiplicity="(1 1)" inverse="cameraActivity:General"
 	 */
-	private General general = new General();
+	private ListPicture general = new ListPicture();
 
 	/** 
 	 * Getter of the property <tt>general</tt>
 	 * @return  Returns the general.
 	 * @uml.property  name="general"
 	 */
-	public General getGeneral() {
+	public ListPicture getGeneral() {
 		return general;
 	}
 
@@ -48,7 +48,7 @@ public class CameraActivity extends GeneralActivity {
 	 * @param general  The general to set.
 	 * @uml.property  name="general"
 	 */
-	public void setGeneral(General general) {
+	public void setGeneral(ListPicture general) {
 		this.general = general;
 	}
 

@@ -58,7 +58,7 @@ public class HandlePicture {
 				 * @uml.property  name="generalActivity"
 				 * @uml.associationEnd  multiplicity="(1 -1)" inverse="handlePicture:GeneralActivity"
 				 */
-				private Collection<GeneralActivity> generalActivity;
+				private Collection<ListPictureActivity> generalActivity;
 
 
 
@@ -67,7 +67,7 @@ public class HandlePicture {
 				 * @return  Returns the generalActivity.
 				 * @uml.property  name="generalActivity"
 				 */
-				public Collection<GeneralActivity> getGeneralActivity() {
+				public Collection<ListPictureActivity> getGeneralActivity() {
 					return generalActivity;
 				}
 
@@ -78,7 +78,7 @@ public class HandlePicture {
 				 * @uml.property  name="generalActivity"
 				 */
 				public void setGeneralActivity(
-						Collection<GeneralActivity> generalActivity) {
+						Collection<ListPictureActivity> generalActivity) {
 							this.generalActivity = generalActivity;
 						}
 

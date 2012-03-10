@@ -78,14 +78,14 @@ public class Picture {
 	 * @uml.property name="general"
 	 * @uml.associationEnd multiplicity="(1 -1)" inverse="picture:General"
 	 */
-	private Collection<General> general;
+	private Collection<ListPicture> general;
 
 	/** 
 	 * Getter of the property <tt>general</tt>
 	 * @return  Returns the general.
 	 * @uml.property  name="general"
 	 */
-	public Collection<General> getGeneral() {
+	public Collection<ListPicture> getGeneral() {
 		return general;
 	}
 
@@ -94,7 +94,7 @@ public class Picture {
 	 * @param general  The general to set.
 	 * @uml.property  name="general"
 	 */
-	public void setGeneral(Collection<General> general) {
+	public void setGeneral(Collection<ListPicture> general) {
 		this.general = general;
 	}
 
