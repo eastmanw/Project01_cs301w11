@@ -1,6 +1,10 @@
+package c301w11.View;
+
 
 
 import java.util.Collection;
+
+import c301w11.Controller.Camera;
 
 public class CameraActivity extends ListPictureActivity {
 

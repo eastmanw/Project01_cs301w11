@@ -1,6 +1,11 @@
+package c301w11.View;
 
+
+import Activity;
 
 import java.util.Collection;
+
+import c301w11.Controller.HandlePicture;
 import android.widget.Button;
 
 public class PictureActivity extends Activity {

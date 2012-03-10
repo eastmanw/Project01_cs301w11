@@ -1,6 +1,11 @@
+package c301w11.View;
 
+
+import Activity;
 
 import java.util.Collection;
+
+import c301w11.Controller.Compare;
 import android.widget.CheckBox;
 import android.widget.Button;
 

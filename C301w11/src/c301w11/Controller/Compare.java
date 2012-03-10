@@ -1,8 +1,10 @@
+package c301w11.Controller;
 
 
 import java.util.Collection;
 
 import c301w11.Model.Picture;
+import c301w11.View.CompareActivity;
 
 public class Compare {
 
