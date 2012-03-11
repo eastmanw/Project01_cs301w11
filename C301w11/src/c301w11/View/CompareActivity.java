@@ -5,7 +5,7 @@ import Activity;
 
 import java.util.Collection;
 
-import c301w11.Controller.Compare;
+import c301w11.Controller.Comparison;
 import android.widget.CheckBox;
 import android.widget.Button;
 
@@ -15,24 +15,24 @@ public class CompareActivity extends Activity {
 	 * @uml.property  name="compare"
 	 * @uml.associationEnd  multiplicity="(1 -1)" aggregation="shared" inverse="compareActivity:Compare"
 	 */
-	private Collection<Compare> compare;
+	private Collection<Comparison> comparison;
 
 	/**
 	 * Getter of the property <tt>compare</tt>
 	 * @return  Returns the compare.
 	 * @uml.property  name="compare"
 	 */
-	public Collection<Compare> getCompare() {
-		return compare;
+	public Collection<Comparison> getCompare() {
+		return comparison;
 	}
 
 	/**
 	 * Setter of the property <tt>compare</tt>
-	 * @param compare  The compare to set.
+	 * @param comparison  The compare to set.
 	 * @uml.property  name="compare"
 	 */
-	public void setCompare(Collection<Compare> compare) {
-		this.compare = compare;
+	public void setCompare(Collection<Comparison> comparison) {
+		this.comparison = comparison;
 	}
 
 	/**

@@ -6,7 +6,7 @@ import java.util.Collection;
 import c301w11.Model.Photo;
 import c301w11.View.CompareActivity;
 
-public class Compare {
+public class Comparison {
 
 		
 		/**
